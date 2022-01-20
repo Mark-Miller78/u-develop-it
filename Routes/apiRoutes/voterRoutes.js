@@ -13,7 +13,7 @@ router.get('/voters', (req, res)=>{
         }
         res.json({
             message: 'success',
-            data: rows,
+            data: rows
         });
     });
 });
